@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "277551963271",
+    "firebase_url": "https://childmonitor-14616-default-rtdb.firebaseio.com",
+    "project_id": "childmonitor-14616",
+    "storage_bucket": "childmonitor-14616.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277551963271:android:c263112396db321670ac22",
+        "android_client_info": {
+          "package_name": "com.example.childmonitoring"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277551963271-0bsau4vh5n6rqnvp4q4qaajegi5snuer.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.childmonitoring",
+            "certificate_hash": "db911439a787fa4bde33071386f9142146fd2ee6"
+          }
+        },
+        {
+          "client_id": "277551963271-ouq2pk0g3qerdh1snd6j42i6ngoo9hf9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaQXGPY-XkiFAXrRnWBfYclDhP6MgabP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277551963271-ouq2pk0g3qerdh1snd6j42i6ngoo9hf9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ChildMonitoring</string>
+    <string name="title_activity_dashboard_tabbed">DashboardTabbed</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="parent_email_address">Parent Email Address</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="create_new_user">Create New User</string>
+    <string name="child_name">Child Name</string>
+    <string name="parent_name">Parent Name</string>
+    <string name="add_new_user">ADD NEW USER</string>
+    <string name="child_monitor">CHILD MONITOR</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="your_email_here">Your Email Here</string>
+    <string name="password">Password</string>
+    <string name="your_password_here">Your Password Here</string>
+    <string name="new_here_register_here">New here? Register here</string>
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddParent"
+    android:background="@drawable/bg3">
+    <TextView
+        android:id="@+id/title"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/colorAccent"
+        android:text="@string/add_new_user"
+        android:textSize="35sp"
+        android:textStyle="bold|italic"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        />
+    <RelativeLayout
+        android:id="@+id/data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_margin="20dp"
+        >
+    <EditText
+
+        android:layout_marginTop="60dp"
+        android:id="@+id/edit_text_parent_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/parent_name"
+        android:inputType="textPersonName"
+        android:textColor="#E2E2E2"
+        android:textColorHint="#999999"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+    <EditText
+        android:id="@+id/edit_text_child_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/child_name"
+        android:inputType="textPersonName"
+        android:textColor="#E2E2E2"
+        android:textColorHint="#999999"
+        android:layout_below="@id/edit_text_parent_name"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+
+        />
+
+
+    <EditText
+        android:id="@+id/edit_text_parent_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/parent_email_address"
+        android:inputType="textEmailAddress"
+        android:textColor="#E2E2E2"
+        android:textColorHint="#999999"
+        android:layout_below="@+id/edit_text_child_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/edit_text_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/password"
+        android:textColor="#E2E2E2"
+        android:textColorHint="#999999"
+        android:layout_below="@+id/edit_text_parent_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+
+        />
+
+    <EditText
+        android:id="@+id/edit_text_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/confirm_password"
+        android:textColor="#E2E2E2"
+        android:textColorHint="#999999"
+        android:layout_below="@+id/edit_text_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+
+
+        />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/button_create_user"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/custom_button_background"
+        android:text="@string/create_new_user"
+        android:layout_below="@+id/data"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="50dp"
+
+        />
+
+
+</RelativeLayout>
